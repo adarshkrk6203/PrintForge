@@ -4,7 +4,7 @@ import NavLink from "@/app/components/NavLink"
 import { usePathname } from "next/navigation"
 import { getAllCategories } from "@/app/lib/categories"
 import type { Category } from "@/app/types"
-import Image from "next/image";
+
 
 export default function CategoriesNav() {
   const pathname = usePathname()
