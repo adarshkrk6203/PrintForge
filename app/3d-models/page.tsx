@@ -1,5 +1,5 @@
 import ModelsGrid from "@/app/components/ModelsGrid"
-import type { ModelsPageProps } from "@/app/types"
+
 import { getModels } from "@/app/lib/models"
 
 export default async function Page() {
