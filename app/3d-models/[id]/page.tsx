@@ -6,7 +6,8 @@ import placeholderImg from "@/public/placeholder.png";
 import Image from "next/image"; // ✅ added this
 
 export default async function ModelDetailPage({ params }: ModelDetailPageProps) {
-  const { id } = params;
+  const { id } = await params;
+
   const model = await getModelById(Number(id));
 
   return (
